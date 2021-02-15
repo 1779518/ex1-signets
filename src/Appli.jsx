@@ -1,9 +1,12 @@
 import './Appli.scss';
+import ListeRepertoires from "./liste-repertoires";
+import Entete from "./entete";
 
 export default function Appli() {
   return (
     <div className="Appli">
-        Gabarit de base d'une Application React
+        <Entete/>
+        <ListeRepertoires/>
     </div>
   );
 }
